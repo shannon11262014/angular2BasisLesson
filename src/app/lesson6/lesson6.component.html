@@ -1,0 +1,11 @@
+<p>
+  lesson6 works!
+</p>
+
+<div>{{tw6}}</div>
+
+<!--綁定moneyChange事件到lesson6的change中-->
+<app-lesson1 (moneyChange)="change($event)"></app-lesson1>
+
+<br>
+<button (click)="callBMI()">callBMIfromService</button>

@@ -1,0 +1,3 @@
+<ul>
+  <li *ngFor="let grade of grades" [ngStyle]="{'color':grade >= 60? 'green':'red'}">{{grade}}分</li>
+</ul>
